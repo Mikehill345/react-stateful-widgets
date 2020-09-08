@@ -60,7 +60,7 @@ console.log(inputValue)
       <h2>Input</h2>
       <div id='output' style={style}>{inputValue}</div>
       <div>
-        <input id='input' type='text' onChange={changeInput} value = {inputValue} /> 
+        <input id='input' type='text' onChange={changeInput} value = {inputValue.toUpperCase()} /> 
         <button id='resetInput' onClick={reset}>Reset</button>
       </div>
     </div>
